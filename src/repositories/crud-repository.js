@@ -64,6 +64,7 @@ class CrudRepository
             }
             else
             {
+                
                 await this.model.update(
                     data,
                     {
